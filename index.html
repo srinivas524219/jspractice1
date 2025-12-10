@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            img{
+                width:100px;
+            }
+            .container{
+                display:grid;
+                grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
+                gap:15px;
+                justify-content: space-between;
+                border:2px solid;
+            }
+            .child1:hover{
+                border:2px solid;
+                background-color: lightgreen;
+            }
+        </style>
+
+    </head>
+    <body>
+        <div id="main" class="container"></div>
+        <script src="index.js"></script>
+    </body>
+</html>
